@@ -29,7 +29,7 @@ var mySwiper=new Swiper(".swiper-container",{
 var beyond=document.querySelector("#beyond");
  var music=document.querySelector(".music");
  window.setTimeout(function(){
- /*beyond.play();//音频会边放边缓存*/
+ beyond.play();//音频会边放边缓存
  beyond.addEventListener("canplay",function(){
  music.className="music musicMove";
  music.style.opacity=1;
